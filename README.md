@@ -24,3 +24,13 @@ O Yarn tem como dependencia o Node, por isso é necessário que o Node esteja in
 Para instalar o yarn, basta rodar o comando:
 
 `npm install -g yarn`
+
+## Baixar as dependencias
+
+Antes de rodar o projeto é necessário baixar as dependencias do mesmo. Para isso basta rodar o comando:
+
+`yarn`
+
+no diretório raiz da aplicação.
+
+## Execução do projeto
