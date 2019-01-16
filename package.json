@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "dev": "node node_modules/react-native/local-cli/cli.js start",
+    "api": "node mock/server.js",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
+    "json-server": "^0.14.2",
     "react": "16.6.3",
     "react-native": "0.57.8"
   },
