@@ -35,4 +35,16 @@ no diretório raiz da aplicação.
 
 ## Execução do projeto
 
-`...`
+### Desenvolvimento
+
+Para a primeira execução do projeto:
+
+`react-native run-android`
+
+A partir da segunda execução do projeto, pode-se utilizar o comando:
+
+`yarn dev`
+
+E para executar o mock da api (sem necessidade de acesso ao backend), em outro terminal, execute:
+
+`yarn api`
