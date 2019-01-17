@@ -18,8 +18,8 @@ server.use(jsonServer.bodyParser);
 server.use(
   //Rotas GET
   jsonServer.rewriter({
-    'api/peoples': '/peoples',
-    'api/animals': '/animals',
+    '/api/peoples': '/peoples',
+    '/api/animals': '/animals',
   })
 );
 
